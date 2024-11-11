@@ -1,3 +1,4 @@
+import javax.swing.JOptionPane;
 
 public class Main {
 
@@ -6,5 +7,7 @@ public class Main {
 		
 		Usuario.Login("", "");
 		
+		
+		JOptionPane.showMessageDialog(null, "Hola soy facu :D ");
 	}
 }
